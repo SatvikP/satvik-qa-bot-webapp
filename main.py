@@ -78,6 +78,7 @@ class BlogQABot:
         prompt = f"""Based on the following content about the blog author, answer this question as if you are the blog author.
 Use the same tone and perspective as shown in the content.
 If the content doesn't contain enough information, say so honestly.
+Keep your response conversational and helpful. And Keep it short and concise.
 
 Content:
 {context}
